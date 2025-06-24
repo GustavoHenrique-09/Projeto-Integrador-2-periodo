@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #00e676;
+    color: black;
+}
+
+nav {
+    background-color: #1f1f1f;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+/* Caixa da temperatura */
+.tempBox {
+    background-color: #fdd835;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    min-width: 220px;
+}
+
+.tempBox p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tempBox h1 {
+    font-size: 60px;
+}
+
+/* Input temperatura */
+.inputTemp {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.inputTemp input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    width: 200px;
+}
+
+.inputTemp button {
+    padding: 10px;
+    background-color: #00d084;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inputTemp button:hover {
+    background-color: #00b36b;
+}
+
+/* Histórico */
+#listaHistorico {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 0 10px #000;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
